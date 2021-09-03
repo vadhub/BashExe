@@ -32,16 +32,12 @@ public class MainActivity extends AppCompatActivity {
         terminal = (EditText) findViewById(R.id.editTextTextMultiLine);
         textViewTerm = (TextView) findViewById(R.id.text_view_term);
         requestPermissions(permission, READ_REQUEST);
-
-
     }
 
     public void execute(View view) {
-
         new Thread(new Runnable() {
             @Override
             public void run() {
-
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
