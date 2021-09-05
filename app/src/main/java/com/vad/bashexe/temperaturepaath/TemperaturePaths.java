@@ -1,5 +1,7 @@
 package com.vad.bashexe.temperaturepaath;
 
+import java.util.List;
+
 public class TemperaturePaths {
 
     //all path that to get temperature from different device
